@@ -8,5 +8,10 @@
 
 import UIKit
 
-class MoreReadViewController: UIViewController {}
+class MoreReadViewController: UIViewController {
+    @IBOutlet private var heightView: UIView!
+    @IBAction private func moreReadButtonTapped(_ sender: UIButton) {
+        heightView.isHidden.toggle()
+    }
+}
 
