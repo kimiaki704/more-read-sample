@@ -16,11 +16,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zBN-sy-HWQ" userLabel="Title Container View">
-                                <rect key="frame" x="16" y="76" width="382" height="59"/>
+                                <rect key="frame" x="16" y="76" width="382" height="47"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIU-kb-Ago">
-                                        <rect key="frame" x="16" y="0.0" width="350" height="59"/>
-                                        <mutableString key="text">こんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちはこんにちは</mutableString>
+                                        <rect key="frame" x="16" y="0.0" width="350" height="47"/>
+                                        <mutableString key="text">私は毎号ぼうっとその汚辱性というものの上であるですです。まして今に話家は何でもかでもこの反駁たななどへしているないをは吹聴忘れるたますて、全くには作るならなですだ。人から行っなのはかく翌日が大分ですたた。
+はたして岩崎さんにふり尻馬それだけ関係を出ない態度同じ貧乏人あなたかお話からというご発会たますでなかっば、その事実は何か権力がたが散らかすて、張君のものに数のあなたがぷんぷんお永続とすると私火事をお専攻になるようにもうご盲動を進んなないば、けっしてやはり創設のつけるば来でものがしでない。
+またもっともお金力を来のはあいにく簡単と飽いなて、その渾名には並べですてという本領を出るばしまっですます。このところ責任の頃その飯はそれ末にしですかと大森さんをできたた、尻馬の今日なくとかいう同＃「たでありと、不都合の以上から家が今かもの魂を晩措いといるて、こうの晩がしがこのためをまあ勤めでなと出ませ事たて、高いないないてそうご仕儀いうない事ななで。そうして進みか必要か戦争からいうないば、今中根柢で定めるていべき時からお融通のほかにしでまし。場合にはもしいうから来るんずませなくて、まあ同時に至るて返事もとてもないでのます。
+しかしご努力に仕上るけれどもはならたろのましが、自己がは、もっとあなたか云いて思うられでますあるれましずと帰るて、人も考えがいだあっ。</mutableString>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -32,20 +35,20 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pGn-Iv-YNF">
-                                <rect key="frame" x="16" y="76" width="382" height="59"/>
+                                <rect key="frame" x="16" y="76" width="382" height="47"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDu-al-qaX">
-                                        <rect key="frame" x="0.0" y="0.0" width="382" height="59"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="47"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="59" id="6Nd-6i-wob"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="47" id="6Nd-6i-wob"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4u-aJ-dJ1">
-                                <rect key="frame" x="168.5" y="167" width="77" height="50"/>
+                                <rect key="frame" x="168.5" y="155" width="77" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="wrQ-D2-I9z"/>
                                 </constraints>
