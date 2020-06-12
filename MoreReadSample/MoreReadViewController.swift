@@ -8,12 +8,12 @@
 
 import UIKit
 
-class MoreReadViewController: UIViewController {
+final class MoreReadViewController: UIViewController {
     @IBOutlet private var heightView: UIView!
     @IBAction private func moreReadButtonTapped(_ sender: UIButton) {
-        UIView.animate(withDuration: 0.2) { [unowned self] in
+        UIView.animate(withDuration: 0.2) { [weak self] in
+            guard let self = self else { return }
             self.heightView.isHidden.toggle()
         }
     }
 }
-

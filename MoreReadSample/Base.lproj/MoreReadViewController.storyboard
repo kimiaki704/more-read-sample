@@ -15,24 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zBN-sy-HWQ" userLabel="Title Container View">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zBN-sy-HWQ" userLabel="Title Container View">
                                 <rect key="frame" x="16" y="76" width="382" height="47"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIU-kb-Ago">
-                                        <rect key="frame" x="16" y="0.0" width="350" height="47"/>
-                                        <mutableString key="text">私は毎号ぼうっとその汚辱性というものの上であるですです。まして今に話家は何でもかでもこの反駁たななどへしているないをは吹聴忘れるたますて、全くには作るならなですだ。人から行っなのはかく翌日が大分ですたた。
+                                        <rect key="frame" x="1" y="0.0" width="380" height="47"/>
+                                        <string key="text">私は毎号ぼうっとその汚辱性というものの上であるですです。まして今に話家は何でもかでもこの反駁たななどへしているないをは吹聴忘れるたますて、全くには作るならなですだ。人から行っなのはかく翌日が大分ですたた。
 はたして岩崎さんにふり尻馬それだけ関係を出ない態度同じ貧乏人あなたかお話からというご発会たますでなかっば、その事実は何か権力がたが散らかすて、張君のものに数のあなたがぷんぷんお永続とすると私火事をお専攻になるようにもうご盲動を進んなないば、けっしてやはり創設のつけるば来でものがしでない。
 またもっともお金力を来のはあいにく簡単と飽いなて、その渾名には並べですてという本領を出るばしまっですます。このところ責任の頃その飯はそれ末にしですかと大森さんをできたた、尻馬の今日なくとかいう同＃「たでありと、不都合の以上から家が今かもの魂を晩措いといるて、こうの晩がしがこのためをまあ勤めでなと出ませ事たて、高いないないてそうご仕儀いうない事ななで。そうして進みか必要か戦争からいうないば、今中根柢で定めるていべき時からお融通のほかにしでまし。場合にはもしいうから来るんずませなくて、まあ同時に至るて返事もとてもないでのます。
-しかしご努力に仕上るけれどもはならたろのましが、自己がは、もっとあなたか云いて思うられでますあるれましずと帰るて、人も考えがいだあっ。</mutableString>
+しかしご努力に仕上るけれどもはならたろのましが、自己がは、もっとあなたか云いて思うられでますあるれましずと帰るて、人も考えがいだあっ。</string>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="JIU-kb-Ago" secondAttribute="trailing" constant="16" id="1Xx-L2-21H"/>
-                                    <constraint firstItem="JIU-kb-Ago" firstAttribute="leading" secondItem="zBN-sy-HWQ" secondAttribute="leading" constant="16" id="c6F-qz-gao"/>
-                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pGn-Iv-YNF">
                                 <rect key="frame" x="16" y="76" width="382" height="47"/>
@@ -41,7 +37,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="47"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="47" id="6Nd-6i-wob"/>
+                                            <constraint firstAttribute="height" constant="47" id="6Nd-6i-wob"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -68,9 +64,8 @@
                             <constraint firstItem="D4u-aJ-dJ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9jM-DE-Go0"/>
                             <constraint firstItem="zBN-sy-HWQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="IQU-YW-NTl"/>
                             <constraint firstItem="zBN-sy-HWQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="XoO-fk-EZs"/>
-                            <constraint firstItem="pGn-Iv-YNF" firstAttribute="height" secondItem="zBN-sy-HWQ" secondAttribute="height" id="cql-Zx-duD"/>
                             <constraint firstItem="pGn-Iv-YNF" firstAttribute="bottom" secondItem="zBN-sy-HWQ" secondAttribute="bottom" id="kZY-au-nCv"/>
-                            <constraint firstItem="D4u-aJ-dJ1" firstAttribute="top" secondItem="KDu-al-qaX" secondAttribute="bottom" constant="32" id="n0r-d5-xo3"/>
+                            <constraint firstItem="D4u-aJ-dJ1" firstAttribute="top" secondItem="zBN-sy-HWQ" secondAttribute="bottom" constant="32" id="n0r-d5-xo3"/>
                             <constraint firstItem="pGn-Iv-YNF" firstAttribute="leading" secondItem="zBN-sy-HWQ" secondAttribute="leading" id="zA4-FD-Jeg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
